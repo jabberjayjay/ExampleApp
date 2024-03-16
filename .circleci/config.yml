@@ -43,4 +43,4 @@ jobs:
     steps:
       - run:
           name: deploy-application
-          command: ssh -o StrictHostKeyChecking=no $jabberjayjay@ec2-16-16-201-122.eu-north-1.compute.amazonaws.com"rm -rf ExampleApp/;git clone https://github.com/jabberjayjay/ExampleApp.git; source ExampleApp/deploy.sh"
+          command: ssh -o StrictHostKeyChecking=no $ubuntu@ec2-16-16-201-122.eu-north-1.compute.amazonaws.com"rm -rf ExampleApp/;git clone https://github.com/jabberjayjay/ExampleApp.git; source ExampleApp/deploy.sh"
