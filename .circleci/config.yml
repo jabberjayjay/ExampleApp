@@ -8,14 +8,14 @@ workflows:
           filters:
             branches:
               only: 
-                -main
+                - main
       - deploy:
           filters:
             branches:
               only:
                 - main
           requires:
-            -build
+            - build
 
 jobs:
   build:
