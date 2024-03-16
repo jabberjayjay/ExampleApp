@@ -9,4 +9,4 @@ cd ExampleApp/
 # Install application dependencies
 npm install
 # Start the application with the process name example_app using pm2 
-pm2 start ./bin/www --name example_app
+pm start ./bin/www --name example_app
